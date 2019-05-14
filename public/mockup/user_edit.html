@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>おこづかい帳(出納帳)</title>
+    </head>
+    <body>
+        <h1>会員情報編集</h1>
+        <h2>会員情報編集</h2>
+        <form action="user_edit_fin.html" method="post">
+            お名前:<input name="name"><br>
+            email:<input name="email"><br>
+            パスワード:<input name="pw" type="password"><br>
+            パスワード(確認):<input name="pw2" type="password"><br>
+            <button>編集</button>
+        </form>
+        
+        <h2>パスワード変更</h2>
+        <form action="password_fin.html" method="post">
+            現在のパスワード<input type="password" name="now_pw"><br>
+            新しいパスワード<input type="password" name="pw"><br>
+            新しいパスワード(再入力)<input type="password" name="pw2"><br>
+            <button>パスワードの変更</button>
+        </form>
+    </body>
+</html>
